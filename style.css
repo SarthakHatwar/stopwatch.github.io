@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@900&display=swap');
+
+
+body{
+    background-image: url(beautiful-shining-stars-night-sky.jpg);
+    
+}
+#full{
+    display: flex;
+    height: 98.2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 40px, 0;
+    font-size: 2rem;
+    font-family: 'Lexend Peta', sans-serif;
+    border: 5px solid gray;
+    
+}
+h3{
+    color: white;
+text-align: center;
+margin-top: -5vh;
+margin-left: 10px;
+}
+
+h3 span{
+    margin: 1vw;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch h1{
+    /* box-shadow: 2px 3px 3px 4px white; */
+    color: white;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    margin-top: 0px;
+    color: white;
+}
+.img:hover{
+    cursor: pointer;
+}
+.img:nth-child(2){
+    width: 88px;
+    height: 88px;
+}
